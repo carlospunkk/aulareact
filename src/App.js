@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Frase from './components/Frase';
+import Helloworld from './components/HelloWorld';
+import Pessoa from './components/Pessoa';
+import SayMyName from './components/SayMyName';
+import Lista from './components/list';
+import Evento from './components/evento';
+import Form from './components/form';
+
+
+
+
+
+
+
 
 function App() {
+
+  const url = 'https://avatars.githubusercontent.com/u/5342937?v=4' 
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>testando eventos </h1>
+    
+      <Evento></Evento>
+      <Form></Form>
     </div>
   );
 }
