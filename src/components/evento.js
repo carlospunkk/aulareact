@@ -1,8 +1,8 @@
- const Evento = () => {
+ const Evento = ({numero}) => {
 
     // eventos 
     function meuevento(){ {/* criação da função meu evento */}
-            console.log("fui ativado")
+            console.log(`fui ativado ${numero}`)
     }
 
     return (
@@ -14,3 +14,4 @@
 }
 
 export default Evento 
+

@@ -1,13 +1,14 @@
 import { useState } from "react"
 
+// componente
 function Form(){
 
-    // método
+    // método meu cadastro 
     function meucadastro(event){
         event.preventDefault()
         console.log(nome)
-        console.log('cadastrado com sucesso')
         console.log(senha)
+        console.log('cadastrado com sucesso')
       
     }
     {/*use state*/}

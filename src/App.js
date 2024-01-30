@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <h1>testando eventos </h1>
     
-      <Evento></Evento>
+      <Evento numero={1+3}></Evento>
       <Form></Form>
     </div>
   );

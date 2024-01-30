@@ -62,7 +62,8 @@ este hook funciona muito bem com eventos
 podemos atrelar um evento a mudança de state  
 
 
-
+aula 11 
+passar eventos por props 
 
 
 
