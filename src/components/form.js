@@ -15,13 +15,14 @@ function Form(){
     const [nome,setnome]= useState()
     const [senha,setsenha]= useState()
 
+  
 
     return(
         <>
             <h1>cadastro</h1>
 
-            <form onSubmit={meucadastro}>
-
+            <form onSubmit={meucadastro}>  { /* ao submeter eu chamo a função meu cadastro */}
+            
             <div>
                 <label htmlFor="nome">Nome:</label>
                 <input 
@@ -29,7 +30,7 @@ function Form(){
                 name="nome" 
                 type="text" 
                 placeholder="digite seu nome"
-                onChange={(e) => setnome(e.target.value)}
+                onChange={(e) => setnome(e.target.value)} /*função para setar o alvo input */
                 >
                 
 

@@ -7,7 +7,7 @@ import SayMyName from './components/SayMyName';
 import Lista from './components/list';
 import Evento from './components/evento';
 import Form from './components/form';
-
+import Item from './components/item';
 
 
 
@@ -26,6 +26,7 @@ function App() {
     
       <Evento numero={1+3}></Evento>
       <Form></Form>
+      <Item/>
     </div>
   );
 }

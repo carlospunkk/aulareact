@@ -63,7 +63,10 @@ podemos atrelar um evento a mudança de state
 
 
 aula 11 
-passar eventos por props 
+passar mpétods por props 
+ou seja o componente filho pode ativar o método do seu ancestral;
+vamos acessar o método por meio do evento 
+a sintaxe é a mesma de uma props de dados :props.meuEvento;
 
 
 
