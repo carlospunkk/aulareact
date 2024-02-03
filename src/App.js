@@ -8,6 +8,7 @@ import Lista from './components/list';
 import Evento from './components/evento';
 import Form from './components/form';
 import Item from './components/item';
+import Condicional from './components/Condicional';
 
 
 
@@ -22,11 +23,17 @@ function App() {
 
   return (
     <div className="App">
-      <h1>testando eventos </h1>
-    
+      <h1>Renderização Condicional </h1>
+    <Condicional/>
+
+
+
+    {/*
       <Evento numero={1+3}></Evento>
       <Form></Form>
       <Item/>
+
+      */}
     </div>
   );
 }

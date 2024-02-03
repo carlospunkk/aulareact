@@ -68,6 +68,14 @@ ou seja o componente filho pode ativar o método do seu ancestral;
 vamos acessar o método por meio do evento 
 a sintaxe é a mesma de uma props de dados :props.meuEvento;
 
+aula 12 renderização 
+podemos atrelar a exibição de algum elemento a um if; 
+esta é chamada de renderização condicional 
+envolemos as tags em chaves executam javascript . criamos nossa condiçao 
+é possivel usar o state para criar as condições 
+
+
+
 
 
 
