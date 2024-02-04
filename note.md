@@ -75,7 +75,7 @@ envolemos as tags em chaves executam javascript . criamos nossa condiçao
 é possivel usar o state para criar as condições 
 
 
-
+aula 13 renderização de listas
 
 
 

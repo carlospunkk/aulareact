@@ -6,6 +6,8 @@ function Condicional() {
       const [email,setEmail]=useState()
       const [userEmail,setUserEmail]=useState()
 
+      // métodos 
+
     function enviarEmail(e){
         e.preventDefault()
         setUserEmail(email)
