@@ -17,11 +17,13 @@ function Condicional() {
     }
     function limparEmail(){
         
-        setUserEmail('')
+     
+        setEmail('')
         console.log("email apagado com sucesso")
 
 
     }
+ 
 
 
 
@@ -38,9 +40,10 @@ function Condicional() {
 
         <button type="submit" onClick={enviarEmail}>enviar</button>
 
+{/*renderização*/}
         {userEmail && (
             <div>
-               <p>o email do usuário é :{email}</p>
+               <p>o email do usuário é :{userEmail}</p>
                <button onClick={limparEmail}> limpar</button>
             </div>
         )}

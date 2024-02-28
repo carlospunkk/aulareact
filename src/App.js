@@ -1,45 +1,32 @@
+// importar Rotas e componentes
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import './App.css';
-import Frase from './components/Frase';
-import Helloworld from './components/HelloWorld';
-import Pessoa from './components/Pessoa';
-import SayMyName from './components/SayMyName';
-import Lista from './components/list';
-import Evento from './components/evento';
-import Form from './components/form';
-import Item from './components/item';
-import Condicional from './components/Condicional';
-import OutraLista from './components/OutraLista';
-
-
-
-
-
-
+// importar os tres componentes
+import Home from "./pages/Home";
+import Empresa from "./pages/Empresa";
+import Contato from "./pages/Contato";
 
 function App() {
-
-  const url = 'https://avatars.githubusercontent.com/u/5342937?v=4' 
-
-  const meusItens = ['react','vue','agular']
-
-
-meusItens.push('javascript')
-
   return (
-    <div className="App">
-      <h1>Renderização Listas </h1>
-   
+    <Router>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/contato">Contato</Link>
+        </li>
+        <li>
+          <Link to="/empresa">Empresa</Link>
+        </li>
+      </ul>
 
-    <OutraLista itens={meusItens}/>
-
-    {/*
-      <Evento numero={1+3}></Evento>
-      <Form></Form>
-      <Item/>
-
-      */}
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/empresa" element={<Empresa />} />
+      </Routes>
+    </Router>
   );
 }
 

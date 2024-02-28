@@ -63,7 +63,7 @@ podemos atrelar um evento a mudança de state
 
 
 aula 11 
-passar mpétods por props 
+passar métodos por props 
 ou seja o componente filho pode ativar o método do seu ancestral;
 vamos acessar o método por meio do evento 
 a sintaxe é a mesma de uma props de dados :props.meuEvento;
@@ -76,9 +76,24 @@ envolemos as tags em chaves executam javascript . criamos nossa condiçao
 
 
 aula 13 renderização de listas
+para renderizar um alista precisamos primeiro de um array 
+depois utilizamos a função map para percorrer cada um dos itens 
+podendo assim renderizar algo
+é possivel unir operadores condicionais com a renderização
 
+aula 14 state Lift 
+state lift é uma técnica utilizada para compartilhar o state 
+é normal varios componentes dependerem do mesmo estado 
+então precisamos elevar o nivel do mesmo a um componente pai 
+então centralizamos o statet no pai , e definimos quem usa quem define o (setState)
 
-
+aula 15 Routers 
+O React Router é um pacote para mudanças de Urls da aplicação 
+Podemos assim acessar outras views , sem o page reload;
+Trocando apenas uma parte do layout da aplica~çao ou seja o que muda de view para view 
+precisamos instalar este pacote no projeto e também realizar mudanças em como o APP É ESTRUTURADO .
+ * PARA INSTALAR O PACOTE (* mudar o nome da mesma variavel F2 e depois só mudar no vscode)
+ npm install react-router-dom 
 
 
 
